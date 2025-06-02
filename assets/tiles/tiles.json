@@ -1,0 +1,15 @@
+{
+    "backrooms": {
+        "id": "backrooms",
+        "directory": "assets/tiles",
+        "source": "backrooms.png",
+        "offset": { "x": 0, "y": 0 },
+        "frameTime": 1,
+        "allowFlip": false,
+        "frames": {
+            "floor": {"x":0,"y":0,"w":64,"h":64},
+            "wall": {"x":64,"y":0,"w":64,"h":64},
+            "ceiling": {"x":128,"y":0,"w":64,"h":64}
+        }
+    }
+}

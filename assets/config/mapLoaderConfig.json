@@ -1,0 +1,31 @@
+{
+    "mapSetup": {
+        "width": 10,
+        "height": 10,
+        "layers": {
+            "bottom": { "id": "bottom", "fill": ["backrooms", "floor"] },
+            "floor": { "id": "floor", "fill": null },
+            "top": { "id": "top", "fill": null },
+            "collision": { "id": "collision", "fill": 0 },
+            "height": { "id": "height", "fill": 1 }
+        },
+        "layerOpacity": {
+            "bottom": 1,
+            "floor": 1,
+            "top": 1,
+            "collision": 1,
+            "height": 1
+        },
+        "backgroundLayers": [
+            "bottom",
+            "floor"
+        ],
+        "foregroundLayers": [
+            "top"
+        ],
+        "metaLayers": [
+            "collision",
+            "height"
+        ]
+    }
+}

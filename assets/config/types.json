@@ -1,0 +1,17 @@
+{
+    "collisionTypes": {
+        "0": { "id": "0", "color": "#000000", "text": "none", "description": "Default Tile." },
+        "1": { "id": "1", "color": "#ff0000", "text": "block", "description": "Blocked Tile." },
+        "2": { "id": "2", "color": "#0000ff", "text": "water", "description": "Water Tile." }
+    },
+    "doorTypes": {
+        "0": { "id": "0", "description": "DOOR_TYPE_HORIZONTAL" },
+        "1": { "id": "1", "description": "DOOR_TYPE_VERTICAL" }
+    },
+    "doorStateTypes": {
+        "0": {"id": 0, "description": "Closed"},
+        "1": {"id": 1, "description": "Open"},
+        "2": {"id": 2, "description": "Opening"},
+        "3": {"id": 3, "description": "Closing"}
+    }
+}

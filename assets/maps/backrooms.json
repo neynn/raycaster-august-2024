@@ -1,0 +1,88 @@
+{
+    "music": null,
+    "width": 10,
+    "height": 10,
+    "sky": null,
+    "ambient": { "r": 0.3, "g": 0.3, "b": 0.3 },
+    "fog": { "r": 0, "g": 0, "b": 0, "distance": 1000 },
+    "layerOpacity": { "bottom": 1, "floor": 1, "top": 1, "collision": 1, "height": 0 },
+    "backgroundLayers": [ "bottom", "floor" ],
+    "foregroundLayers": [ "top" ],
+    "metaLayers": [ "collision", "height" ],
+    "doors": [
+    ],
+    "lights": [
+        {"id": "light_1", "positionX": 48, "positionY": 136, "positionZ": 32, "intensity": 0, "color": [255, 0, 0]}
+    ],
+    "layers": {
+        "bottom": [
+            [["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"]],
+            [["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"]],
+            [["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"]],
+            [["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"]],
+            [["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"]],
+            [["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"]],
+            [["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"]],
+            [["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"]],
+            [["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"]],
+            [["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"],["backrooms","floor"]]
+        ],
+        "floor": [
+            [["backrooms","wall"],["backrooms","wall"],["backrooms","wall"],["backrooms","wall"],["backrooms","wall"],["backrooms","wall"],["backrooms","wall"],["backrooms","wall"],["backrooms","wall"],["backrooms","wall"]],
+            [["backrooms","wall"],null,null,null,null,null,null,["backrooms","ceiling"],null,["backrooms","wall"]],
+            [["backrooms","wall"],null,["backrooms","wall"],null,["backrooms","wall"],["backrooms","wall"],null,["backrooms","wall"],null,["backrooms","wall"]],
+            [["backrooms","wall"],null,["backrooms","wall"],null,["backrooms","wall"],null,null,null,null,["backrooms","wall"]],
+            [["backrooms","wall"],null,["backrooms","wall"],null,["backrooms","wall"],null,null,["backrooms","wall"],["backrooms","wall"],["backrooms","wall"]],
+            [["backrooms","wall"],null,["backrooms","wall"],null,["backrooms","wall"],["backrooms","wall"],null,["backrooms","wall"],null,["backrooms","wall"]],
+            [["backrooms","wall"],["backrooms","ceiling"],["backrooms","wall"],null,null,null,null,["backrooms","wall"],null,["backrooms","wall"]],
+            [["backrooms","wall"],null,["backrooms","wall"],["backrooms","wall"],["backrooms","wall"],null,["backrooms","wall"],["backrooms","wall"],null,["backrooms","wall"]],
+            [["backrooms","wall"],null,null,null,null,null,null,null,null,["backrooms","wall"]],
+            [["backrooms","wall"],["backrooms","wall"],["backrooms","wall"],["backrooms","wall"],["backrooms","wall"],["backrooms","wall"],["backrooms","wall"],["backrooms","wall"],["backrooms","wall"],["backrooms","wall"]]
+        ],
+        "top": [
+            [["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"]],
+            [["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"]],
+            [["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"]],
+            [["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"]],
+            [["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"]],
+            [["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"]],
+            [["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"]],
+            [["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"]],
+            [["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"]],
+            [["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"],["backrooms","ceiling"]]
+        ],
+        "collision": [
+            [1,1,1,1,1,1,1,1,1,1],
+            [1,0,0,0,0,0,0,1,0,1],
+            [1,0,1,0,1,1,0,1,0,1],
+            [1,0,1,0,1,0,0,0,0,1],
+            [1,0,1,0,1,0,0,1,1,1],
+            [1,0,1,0,1,1,0,1,0,1],
+            [1,1,1,0,0,0,0,1,0,1],
+            [1,0,1,1,1,0,1,1,0,1],
+            [1,0,0,0,0,0,0,0,0,1],
+            [1,1,1,1,1,1,1,1,1,1]
+        ],
+        "height": [
+            [1,1,1,1,1,1,1,1,1,1],
+            [1,0,0,0,0,0,0,1,0,1],
+            [1,0,0.1,0,1,1,0,1,0,1],
+            [1,0,0.2,0,1,0,0,0,0,1],
+            [1,0,0.3,0,1,0,0,1,1,1],
+            [1,0,0.4,0,1,1,0,1,0,1],
+            [1,1,1,0,0,0,0,1,0,1],
+            [1,0,1,1,1,0,1,1,0,1],
+            [1,0,0,0,0,0,0,0,0,1],
+            [1,1,1,1,1,1,1,1,1,1]
+        ]
+    },
+    "connections": [
+            
+    ],
+    "entities" : [
+        
+    ],
+    "flags" : {
+        
+    }
+}

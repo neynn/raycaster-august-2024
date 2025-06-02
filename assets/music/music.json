@@ -1,0 +1,3 @@
+{
+    "backrooms": { "id": "backrooms", "directory": "assets/music/", "source": "backrooms.mp3", "isLooping": true, "defaultVolume": 0.1 }
+}
